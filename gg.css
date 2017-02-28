@@ -1,0 +1,159 @@
+body {
+	font-family :  Black Ops one, sans-serif;
+	background: #4d0707;
+	margin: 21;
+	padding:0;
+	font-size : 13px;
+	color : #FDE7F3;
+}
+
+.headerText {
+	background: none;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 29px;
+	padding-right: 99px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	color: #F70106;
+	font-weight: bold;
+}
+DIV.center {
+	text-align: center;
+}
+nav {
+	display: inline-block;
+	background: #3600C6;
+	width: 650px;
+	color: #72008C;
+	font-weight: bold;
+	padding-top: 8px;
+	border-top: 2px dotted #FDE7F3;
+}
+nav  a {
+	background: #3600C6;
+	color: #fff;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav li a:active {
+	background: #3600C6;
+	color: #fff;
+	padding: 3px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav ul a:hover {
+	background: #001767;
+	color: #FA0816;
+	padding-top: 3px;
+	padding-bottom: 13px;
+	padding-left: 3px;		
+	padding-right: 3px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+nav ul a.selected{ color: #9b9cdf;
+}
+nav li {display: inline-block;
+   font-kerning: 12px;
+}
+
+#container {
+	background: #FDE7F3;
+	color : #980;
+	width: 650px;
+	margin-right : auto;
+	margin-left : auto;
+	text-align : left;
+}
+#content {
+	background: #F70106;
+	color: #000;
+	padding-top: 55px;
+	padding-right: 77px;
+	padding-left: 77px;
+}	
+#columnR {
+	float: right;
+	width: 500px;
+	margin:0;
+	margin-right:0;
+	padding:25px;
+	background: #fff;
+	color: #000;
+}
+b.black {
+	background: none;
+	color: #000;
+	font-size: 16px;
+}
+h2.headline {
+	background: #fff;
+	text-decoration: underline;
+	color: #84D02E;
+}
+h1.title {
+	font-weight: bold;
+}
+#bodytext {
+	background: #fff;
+	font-family : Just Me Again Down Here, sans-serif;
+	padding-left : 25px;
+	padding-right : 25px;
+	text-align : left;
+	color: #000;
+	padding-top : 5px;
+	padding-bottom : 30px;
+	margin-bottom: 0;
+  font-size: 18.5px;
+}
+.imageobject {
+	float: left;
+	background: url(images/flower.jpg) no-repeat;
+	color: #fff;
+	height: 239px;
+	width: 300px;
+	}
+.image { display: inline-block;
+  padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+/*****footer detail****/
+.footer {
+	background: url(stock_gradient_red_blue_by_einstud-d37scl4.jpg) repeat-x;
+	height: 100px;
+	width: 650px;
+	margin-right : auto;
+	margin-left : auto;
+	color : #4600B8;
+	padding-top : 21px;
+	font-size: 10.5px;
+	text-align : center;
+  display: inline-block;
+}
+
+.footer a {
+	background: none;
+	color : #0500FA;
+	padding-left: 9px;
+	padding-right: 9px;	
+}
+
+/****footer nav***/
+.footer nav { color: #fff;
+  background: none;
+border-top: none;
+padding-top: 0px;
+display:inline-block;
+padding-right: 65px;
+}
+.footer nav ul a:hover {
+ background-color: #950b0b;
+}
+.footer nav.selected{ color: #9b9cdf;}
